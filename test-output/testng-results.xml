@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="691725" started-at="2020-05-29T05:08:32Z" finished-at="2020-05-29T05:20:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="691725" started-at="2020-05-29T05:08:32Z" finished-at="2020-05-29T05:20:04Z">
+      <class name="com.dell.emc.imap.testscripts.CloneRequestSubmission">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.dell.emc.imap.testscripts.CloneRequestSubmission@1a5b6f42]" name="beforeTest" is-config="true" duration-ms="19" started-at="2020-05-29T05:08:32Z" finished-at="2020-05-29T05:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testBeforeMethod()[pri:0, instance:com.dell.emc.imap.testscripts.CloneRequestSubmission@1a5b6f42]" name="testBeforeMethod" is-config="true" duration-ms="23066" started-at="2020-05-29T05:08:32Z" finished-at="2020-05-29T05:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod -->
+        <test-method status="FAIL" signature="T02_CloneRequestSubmission()[pri:0, instance:com.dell.emc.imap.testscripts.CloneRequestSubmission@1a5b6f42]" name="T02_CloneRequestSubmission" duration-ms="665279" started-at="2020-05-29T05:08:55Z" finished-at="2020-05-29T05:20:01Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.dell.emc.imap.testscripts.CloneRequestSubmission.T02_CloneRequestSubmission(CloneRequestSubmission.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T02_CloneRequestSubmission -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.dell.emc.imap.testscripts.CloneRequestSubmission@1a5b6f42]" name="afterMethod" is-config="true" duration-ms="3334" started-at="2020-05-29T05:20:01Z" description="Executes After Each Iteration" finished-at="2020-05-29T05:20:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=T02_CloneRequestSubmission status=FAILURE method=CloneRequestSubmission.T02_CloneRequestSubmission()[pri:0, instance:com.dell.emc.imap.testscripts.CloneRequestSubmission@1a5b6f42] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dell.emc.imap.testscripts.CloneRequestSubmission@1a5b6f42]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-05-29T05:20:04Z" finished-at="2020-05-29T05:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dell.emc.imap.testscripts.CloneRequestSubmission -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

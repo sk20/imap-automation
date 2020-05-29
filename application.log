@@ -1,0 +1,69 @@
+2020-05-28 19:28:00,322  INFO [main] JavaScriptHelper:24 - JavaScriptHelper has been initialised
+2020-05-28 19:28:08,461  INFO [main] IMAP_SearchPage:929 - User should able to see the iMAP CUSTOMER PORTAL logo, iMAP CUSTOMER PORTAL logo is displayed in the Home Page
+2020-05-28 19:28:08,467  INFO [main] IMAP_SearchPage:250 - entering Customer Source..UCID
+2020-05-28 19:28:08,749  INFO [main] IMAP_SearchPage:266 - entering Customer Name..AUTOTEST_GITBAJ55
+2020-05-28 19:28:09,111  INFO [main] IMAP_SearchPage:273 - entering Address..M G Road
+2020-05-28 19:28:09,298  INFO [main] IMAP_SearchPage:278 - entering City..Bangalore
+2020-05-28 19:28:09,462  INFO [main] IMAP_SearchPage:284 - entering Country..India
+2020-05-28 19:28:09,736  INFO [main] IMAP_SearchPage:307 - entering Postal Code..560001
+2020-05-28 19:28:19,910  INFO [main] IMAP_SearchPage:331 - clicked on Search Button..[[ChromeDriver: chrome on XP (1caf0966a5947d6d01c2c16cc37b0938)] -> xpath: //button[contains(text(),'Search')]]
+2020-05-28 19:28:25,028  INFO [main] WaitHelper:31 - WaitHelper object created..
+2020-05-28 19:28:25,182  INFO [main] IMAP_SearchPage:352 - clicked on Can't Find a Match Button..[[ChromeDriver: chrome on XP (1caf0966a5947d6d01c2c16cc37b0938)] -> xpath: //button[contains(text(),'find a match')]]
+2020-05-28 19:28:25,184  INFO [main] WaitHelper:31 - WaitHelper object created..
+2020-05-28 19:28:32,267  INFO [main] IMAP_SearchPage:717 - wait for the element
+2020-05-28 19:28:32,281  INFO [main] IMAP_SearchPage:720 - create element
+2020-05-28 19:28:42,679  INFO [main] JavaScriptHelper:79 - scroll till web element
+2020-05-28 19:28:45,892  INFO [main] IMAP_SearchPage:371 - clicked on Create Request_Submit Button..[[ChromeDriver: chrome on XP (1caf0966a5947d6d01c2c16cc37b0938)] -> xpath: //button[contains(text(),'Submit')]]
+2020-05-28 19:28:59,027  INFO [main] JavaScriptHelper:24 - JavaScriptHelper has been initialised
+2020-05-28 19:28:59,028  INFO [main] JavaScriptHelper:79 - scroll till web element
+2020-05-28 19:29:14,678  INFO [main] IMAP_SearchPage:371 - clicked on Create Request_Submit Button..[[ChromeDriver: chrome on XP (1caf0966a5947d6d01c2c16cc37b0938)] -> xpath: //button[contains(text(),'Submit')]]
+2020-05-28 19:29:24,842  INFO [main] IMAP_SearchPage:1002 - req ID---  C333040
+2020-05-28 19:29:24,843  INFO [main] IMAP_SearchPage:1008 - req ID--- C333040
+2020-05-28 23:35:47,143 ERROR [main] DBHelper:119 - Failed to create Data base connection..java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@echoratst03.isus.emc.com:1630:ECH3T
+2020-05-28 23:35:47,147  INFO [main] DBHelper:143 - Executing query: Select p.ucid from emcparty.c_b_party p, emcparty.c_b_addr a where p.INTERACTION_ID = a.INTERACTION_ID and p.HUB_STATE_IND = a.HUB_STATE_IND and p.ucid is not null and p.HUB_STATE_IND=1 and p.inter_company_type LIKE '%EXTERNAL' and a.POSTAL_CD is not null order by dbms_random.value FETCH FIRST 1 ROWS ONLY
+2020-05-28 23:35:47,148  INFO [main] DBHelper:185 - Exception: Unable to retrieve the Ucid
+2020-05-28 23:37:41,932  INFO [main] DBHelper:115 - Connected to data base..jdbc:oracle:thin:@echoratst03.isus.emc.com:1630:ECH3T
+2020-05-28 23:37:41,936  INFO [main] DBHelper:143 - Executing query: Select p.ucid from emcparty.c_b_party p, emcparty.c_b_addr a where p.INTERACTION_ID = a.INTERACTION_ID and p.HUB_STATE_IND = a.HUB_STATE_IND and p.ucid is not null and p.HUB_STATE_IND=1 and p.inter_company_type LIKE '%EXTERNAL' and a.POSTAL_CD is not null order by dbms_random.value FETCH FIRST 1 ROWS ONLY
+2020-05-28 23:37:49,873  INFO [main] IMAP_SearchPage:260 - Entering Customer ID..:1004368157
+2020-05-28 23:37:50,060  INFO [main] IMAP_SearchPage:331 - clicked on Search Button..[[ChromeDriver: chrome on XP (cd6e4c6d866933ed0e9f851fe6b40b77)] -> xpath: //button[contains(text(),'Search')]]
+2020-05-28 23:37:50,166  INFO [main] WaitHelper:31 - WaitHelper object created..
+2020-05-28 23:37:55,295  INFO [main] IMAP_SearchPage:461 - Click on Golden Records check box
+2020-05-28 23:38:00,317  INFO [main] IMAP_SearchPage:490 - Clicked on Clone image..[[ChromeDriver: chrome on XP (cd6e4c6d866933ed0e9f851fe6b40b77)] -> xpath: (//table/tbody/tr/td[1]/div/img[3])[1]]
+2020-05-29 10:28:22,474  INFO [main] DBHelper:115 - Connected to data base..jdbc:oracle:thin:@echoratst03.isus.emc.com:1630:ECH3T
+2020-05-29 10:28:22,514  INFO [main] DBHelper:143 - Executing query: Select p.ucid from emcparty.c_b_party p, emcparty.c_b_addr a where p.INTERACTION_ID = a.INTERACTION_ID and p.HUB_STATE_IND = a.HUB_STATE_IND and p.ucid is not null and p.HUB_STATE_IND=1 and p.inter_company_type LIKE '%EXTERNAL' and a.POSTAL_CD is not null order by dbms_random.value FETCH FIRST 1 ROWS ONLY
+2020-05-29 10:28:47,114  INFO [main] IMAP_SearchPage:260 - Entering Customer ID..:1806699453
+2020-05-29 10:28:51,300  INFO [main] IMAP_SearchPage:331 - clicked on Search Button..[[ChromeDriver: chrome on XP (ef7cd18c373713aa5eb0ab211c814a9a)] -> xpath: //button[contains(text(),'Search')]]
+2020-05-29 10:28:55,470  INFO [main] WaitHelper:31 - WaitHelper object created..
+2020-05-29 10:29:09,615  INFO [main] IMAP_SearchPage:461 - Click on Golden Records check box
+2020-05-29 10:29:18,331  INFO [main] IMAP_SearchPage:490 - Clicked on Clone image..[[ChromeDriver: chrome on XP (ef7cd18c373713aa5eb0ab211c814a9a)] -> xpath: (//table/tbody/tr/td[1]/div/img[3])[1]]
+2020-05-29 10:33:50,001  INFO [main] DBHelper:115 - Connected to data base..jdbc:oracle:thin:@echoratst203.isus.emc.com:1630:ECH4T
+2020-05-29 10:33:50,003  INFO [main] DBHelper:143 - Executing query: Select p.ucid from emcparty.c_b_party p, emcparty.c_b_addr a where p.INTERACTION_ID = a.INTERACTION_ID and p.HUB_STATE_IND = a.HUB_STATE_IND and p.ucid is not null and p.HUB_STATE_IND=1 and p.inter_company_type LIKE '%EXTERNAL' and a.POSTAL_CD is not null order by dbms_random.value FETCH FIRST 1 ROWS ONLY
+2020-05-29 10:34:28,115  INFO [main] IMAP_SearchPage:260 - Entering Customer ID..:1004341510
+2020-05-29 10:34:28,255  INFO [main] IMAP_SearchPage:331 - clicked on Search Button..[[ChromeDriver: chrome on XP (83aeae2463e392e21c748ec1f6c9c48f)] -> xpath: //button[contains(text(),'Search')]]
+2020-05-29 10:34:28,343  INFO [main] WaitHelper:31 - WaitHelper object created..
+2020-05-29 10:34:33,433  INFO [main] IMAP_SearchPage:461 - Click on Golden Records check box
+2020-05-29 10:34:38,449  INFO [main] IMAP_SearchPage:490 - Clicked on Clone image..[[ChromeDriver: chrome on XP (83aeae2463e392e21c748ec1f6c9c48f)] -> xpath: (//table/tbody/tr/td[1]/div/img[3])[1]]
+2020-05-29 10:39:30,245  INFO [main] DBHelper:115 - Connected to data base..jdbc:oracle:thin:@echoratst203.isus.emc.com:1630:ECH4T
+2020-05-29 10:39:30,288  INFO [main] DBHelper:143 - Executing query: Select p.ucid from emcparty.c_b_party p, emcparty.c_b_addr a where p.INTERACTION_ID = a.INTERACTION_ID and p.HUB_STATE_IND = a.HUB_STATE_IND and p.ucid is not null and p.HUB_STATE_IND=1 and p.inter_company_type LIKE '%EXTERNAL' and a.POSTAL_CD is not null order by dbms_random.value FETCH FIRST 1 ROWS ONLY
+2020-05-29 10:39:41,874  INFO [main] IMAP_SearchPage:260 - Entering Customer ID..:1004844989
+2020-05-29 10:39:43,313  INFO [main] IMAP_SearchPage:331 - clicked on Search Button..[[ChromeDriver: chrome on XP (e2b8a5d1587f9e81cdb377b219d90110)] -> xpath: //button[contains(text(),'Search')]]
+2020-05-29 10:39:44,117  INFO [main] WaitHelper:31 - WaitHelper object created..
+2020-05-29 10:39:53,348  INFO [main] IMAP_SearchPage:461 - Click on Golden Records check box
+2020-05-29 10:40:06,955  INFO [main] IMAP_SearchPage:490 - Clicked on Clone image..[[ChromeDriver: chrome on XP (e2b8a5d1587f9e81cdb377b219d90110)] -> xpath: (//table/tbody/tr/td[1]/div/img[4])[1]]
+2020-05-29 10:40:25,130  INFO [main] IDD_Home_Page:55 - User should able to see the Customer clone Request Page
+2020-05-29 10:40:27,469  INFO [main] IDD_Home_Page:203 - User entered the suite value as:170
+2020-05-29 10:40:28,047  INFO [main] JavaScriptHelper:24 - JavaScriptHelper has been initialised
+2020-05-29 10:40:28,053  INFO [main] JavaScriptHelper:79 - scroll till web element
+2020-05-29 10:40:28,864  INFO [main] IDD_Home_Page:81 - User selected the RTM Value as:DIRECT
+2020-05-29 10:40:29,738  INFO [main] IDD_Home_Page:257 - Internal Customer Type is: EXTERNAL
+2020-05-29 10:40:29,743  INFO [main] IDD_Home_Page:258 - Intenal Customer Type EXTERNAL is displaying.
+2020-05-29 10:40:45,000  INFO [main] JavaScriptHelper:24 - JavaScriptHelper has been initialised
+2020-05-29 10:40:45,007  INFO [main] JavaScriptHelper:79 - scroll till web element
+2020-05-29 10:40:45,779  INFO [main] IDD_Home_Page:159 - User clicked on the Submit button successfully.
+2020-05-29 10:40:58,432  INFO [main] IDD_Home_Page:109 - User selected the Request purpose as:Other
+2020-05-29 10:41:06,109  INFO [main] IDD_Home_Page:124 - User is entered the value into the Please Specity field successfully.
+2020-05-29 10:41:08,746  INFO [main] IDD_Home_Page:159 - User clicked on the Submit button successfully.
+2020-05-29 10:41:57,239  INFO [main] IDD_Home_Page:222 - Request was successfully created and Request ID:- D12807
+2020-05-29 10:41:58,648  INFO [main] CloneRequestSubmission:88 - select * from emcparty.EMC_AUTO_APPROVE_Q where request_id='D12807'
+2020-05-29 10:50:00,019  INFO [main] DBHelper:115 - Connected to data base..jdbc:oracle:thin:@echoratst203.isus.emc.com:1630:ECH4T
+2020-05-29 10:50:00,019  INFO [main] DBHelper:143 - Executing query: select * from emcparty.EMC_AUTO_APPROVE_Q where request_id='D12807'

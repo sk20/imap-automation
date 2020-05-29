@@ -1,0 +1,14 @@
+{
+	"Customersource":"UCID",
+	"Customername":"KIRAN KUMAR",
+	"Address":"M G Road",
+	"City":"Bangalore",
+	"Country":"India",
+	"Postalcode":"560001",
+	"Requestpurpose":"Other",
+	"error_Message":"Please specify is mandatory field for this Request purpose.",
+	"Others_reason":"testing_dell",
+	"query":"SELECT * FROM obstg.UCID_AUDIT a WHERE a.UCID = 'ucid'",
+	"success_msg":"successfully executed.",
+	"tabName":"javascript:MyRequestTabModalWindow(); return true;"
+}

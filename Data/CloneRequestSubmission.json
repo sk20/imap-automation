@@ -1,0 +1,8 @@
+{
+	"query1":"Select p.ucid from emcparty.c_b_party p, emcparty.c_b_addr a where p.INTERACTION_ID = a.INTERACTION_ID and p.HUB_STATE_IND = a.HUB_STATE_IND and p.ucid is not null and p.HUB_STATE_IND=1 and p.inter_company_type LIKE '%EXTERNAL' and a.POSTAL_CD is not null order by dbms_random.value FETCH FIRST 1 ROWS ONLY",
+	"query":"select * from emcparty.EMC_AUTO_APPROVE_Q where request_id='req_id'",
+	"Country":"United States",
+	"RTM":"DIRECT",
+	"RequestPurpose":"Other",
+	"PleaseSpecify":"returns"
+}
